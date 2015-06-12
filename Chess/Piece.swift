@@ -9,13 +9,13 @@
 import Foundation
 import UIKit
 
-enum PieceType {
-    case King
-    case Queen
-    case Rook
-    case Bishop
-    case Knight
-    case Pawn
+enum Team {
+    case BLACK
+    case WHITE
+}
+
+enum PieceErrors : ErrorType{
+    case InvalidMovement
 }
 
 struct Coordinate {
@@ -29,13 +29,11 @@ struct Coordinate {
 
 protocol Piece {  // Protocols are like interfaces apparently
     
-    var color : UIColor { get }
-    
-    var type : PieceType { get }
+    var team : Team { get }
     
     var location : Coordinate { get }
     
-    // Returns true if valid move, else false
-    func move(toCoord: Coordinate) -> Bool 
+    // Throws error if move to invalid location
+    func move(toCoord: Coordinate) throws 
     
 }
