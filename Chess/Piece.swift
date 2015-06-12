@@ -7,9 +7,31 @@
 //
 
 import Foundation
+import UIKit
+
+enum PieceType {
+    case King
+    case Queen
+    case Rook
+    case Bishop
+    case Knight
+    case Pawns
+    
+}
+
+struct Coordinate {
+    var x : Int
+    var y : Int
+}
 
 protocol Piece {  // Protocols are like interfaces apparently
     
-    var color;
+    var color : UIColor { get set }
+    
+    var type : PieceType { get }
+    
+    var location : Coordinate { get }
+    
+    func move(toCoord: Coordinate)
     
 }
