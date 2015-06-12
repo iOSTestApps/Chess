@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4903A0E41B2B54AC00F0E278 /* Pawn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4903A0E31B2B54AC00F0E278 /* Pawn.swift */; };
 		493DF2971B292286002AF41A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493DF2961B292286002AF41A /* AppDelegate.swift */; };
 		493DF2991B292286002AF41A /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 493DF2981B292286002AF41A /* GameScene.sks */; };
 		493DF29B1B292286002AF41A /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493DF29A1B292286002AF41A /* GameScene.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4903A0E31B2B54AC00F0E278 /* Pawn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pawn.swift; sourceTree = "<group>"; };
 		493DF2931B292286002AF41A /* Chess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chess.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		493DF2961B292286002AF41A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		493DF2981B292286002AF41A /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 				DC24E64C1B2A73930050876B /* Tile.swift */,
 				493DF2A11B292286002AF41A /* Assets.xcassets */,
 				DC24E64E1B2A78A70050876B /* Piece.swift */,
+				4903A0E31B2B54AC00F0E278 /* Pawn.swift */,
 				493DF2A31B292287002AF41A /* LaunchScreen.storyboard */,
 				493DF2A61B292287002AF41A /* Info.plist */,
 			);
@@ -269,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				493DF29B1B292286002AF41A /* GameScene.swift in Sources */,
+				4903A0E41B2B54AC00F0E278 /* Pawn.swift in Sources */,
 				493DF29D1B292286002AF41A /* GameViewController.swift in Sources */,
 				DC24E64F1B2A78A70050876B /* Piece.swift in Sources */,
 				493DF2971B292286002AF41A /* AppDelegate.swift in Sources */,

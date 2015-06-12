@@ -15,23 +15,27 @@ enum PieceType {
     case Rook
     case Bishop
     case Knight
-    case Pawns
-    
+    case Pawn
 }
 
 struct Coordinate {
     var x : Int
     var y : Int
+    init(x: Int, y: Int){
+        self.x = x
+        self.y = y
+    }
 }
 
 protocol Piece {  // Protocols are like interfaces apparently
     
-    var color : UIColor { get set }
+    var color : UIColor { get }
     
     var type : PieceType { get }
     
     var location : Coordinate { get }
     
-    func move(toCoord: Coordinate)
+    // Returns true if valid move, else false
+    func move(toCoord: Coordinate) -> Bool 
     
 }
