@@ -16,6 +16,8 @@
 		493DF2A51B292287002AF41A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 493DF2A31B292287002AF41A /* LaunchScreen.storyboard */; };
 		493DF2B01B292287002AF41A /* ChessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493DF2AF1B292287002AF41A /* ChessTests.swift */; };
 		493DF2BB1B292287002AF41A /* ChessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493DF2BA1B292287002AF41A /* ChessUITests.swift */; };
+		DC24E64D1B2A73930050876B /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC24E64C1B2A73930050876B /* Tile.swift */; };
+		DC24E64F1B2A78A70050876B /* Piece.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC24E64E1B2A78A70050876B /* Piece.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		493DF2B61B292287002AF41A /* ChessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		493DF2BA1B292287002AF41A /* ChessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChessUITests.swift; sourceTree = "<group>"; };
 		493DF2BC1B292287002AF41A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC24E64C1B2A73930050876B /* Tile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
+		DC24E64E1B2A78A70050876B /* Piece.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Piece.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +110,9 @@
 				493DF29A1B292286002AF41A /* GameScene.swift */,
 				493DF29C1B292286002AF41A /* GameViewController.swift */,
 				493DF29E1B292286002AF41A /* Main.storyboard */,
+				DC24E64C1B2A73930050876B /* Tile.swift */,
 				493DF2A11B292286002AF41A /* Assets.xcassets */,
+				DC24E64E1B2A78A70050876B /* Piece.swift */,
 				493DF2A31B292287002AF41A /* LaunchScreen.storyboard */,
 				493DF2A61B292287002AF41A /* Info.plist */,
 			);
@@ -264,7 +270,9 @@
 			files = (
 				493DF29B1B292286002AF41A /* GameScene.swift in Sources */,
 				493DF29D1B292286002AF41A /* GameViewController.swift in Sources */,
+				DC24E64F1B2A78A70050876B /* Piece.swift in Sources */,
 				493DF2971B292286002AF41A /* AppDelegate.swift in Sources */,
+				DC24E64D1B2A73930050876B /* Tile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,6 +499,7 @@
 				493DF2C11B292287002AF41A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		493DF2C21B292287002AF41A /* Build configuration list for PBXNativeTarget "ChessTests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +508,7 @@
 				493DF2C41B292287002AF41A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		493DF2C51B292287002AF41A /* Build configuration list for PBXNativeTarget "ChessUITests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +517,7 @@
 				493DF2C71B292287002AF41A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
