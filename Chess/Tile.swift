@@ -30,6 +30,7 @@ class Tile {
     }
     
     func setXCoord(xC: Int) {
+    
         xCoord = xC;
     }
     

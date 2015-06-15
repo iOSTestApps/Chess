@@ -19,6 +19,7 @@
 		493DF2BB1B292287002AF41A /* ChessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493DF2BA1B292287002AF41A /* ChessUITests.swift */; };
 		DC24E64D1B2A73930050876B /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC24E64C1B2A73930050876B /* Tile.swift */; };
 		DC24E64F1B2A78A70050876B /* Piece.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC24E64E1B2A78A70050876B /* Piece.swift */; };
+		DC24E6511B2E5A0F0050876B /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC24E6501B2E5A0F0050876B /* Board.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		493DF2BC1B292287002AF41A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC24E64C1B2A73930050876B /* Tile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
 		DC24E64E1B2A78A70050876B /* Piece.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Piece.swift; sourceTree = "<group>"; };
+		DC24E6501B2E5A0F0050876B /* Board.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 				493DF29E1B292286002AF41A /* Main.storyboard */,
 				DC24E64C1B2A73930050876B /* Tile.swift */,
 				493DF2A11B292286002AF41A /* Assets.xcassets */,
+				DC24E6501B2E5A0F0050876B /* Board.swift */,
 				DC24E64E1B2A78A70050876B /* Piece.swift */,
 				4903A0E31B2B54AC00F0E278 /* Pawn.swift */,
 				493DF2A31B292287002AF41A /* LaunchScreen.storyboard */,
@@ -275,6 +278,7 @@
 				4903A0E41B2B54AC00F0E278 /* Pawn.swift in Sources */,
 				493DF29D1B292286002AF41A /* GameViewController.swift in Sources */,
 				DC24E64F1B2A78A70050876B /* Piece.swift in Sources */,
+				DC24E6511B2E5A0F0050876B /* Board.swift in Sources */,
 				493DF2971B292286002AF41A /* AppDelegate.swift in Sources */,
 				DC24E64D1B2A73930050876B /* Tile.swift in Sources */,
 			);
