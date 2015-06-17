@@ -11,31 +11,30 @@ import Foundation
 class Tile {
     
     var pieceInTile: Piece? = nil; // optional type piece
-    var xCoord:   Int = 0; // xCoord of the tile on the board
-    var yCoord:   Int = 0; // yCoord of the tile on the board
+    
+    var coord : Coordinate = Coordinate(x: 0, y: 0)
 
-    init(xC: Int, yC: Int, piece: Piece) { // Constructor
-        xCoord = xC;
-        yCoord = yC;
+    init(coord: Coordinate, piece: Piece) { // Constructor
+        self.coord = coord
         pieceInTile = piece;
     }
     
     
     func getX() -> Int{
-        return xCoord;
+        return coord.y;
     }
     
     func getY() -> Int {
-        return yCoord;
+        return coord.y;
     }
     
     func setXCoord(xC: Int) {
     
-        xCoord = xC;
+        coord.x = xC;
     }
     
     func setYCoord(yC: Int) {
-        yCoord = yC;
+        coord.y = yC;
     }
     
     func setPiece(piece: Piece) {
