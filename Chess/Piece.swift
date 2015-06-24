@@ -16,6 +16,7 @@ enum Team {
 
 enum PieceErrors : ErrorType{
     case InvalidMovement
+    case MoveNotImplemented
 }
 
 struct Coordinate {

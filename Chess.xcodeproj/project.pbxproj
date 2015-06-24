@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		4903A0E41B2B54AC00F0E278 /* Pawn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4903A0E31B2B54AC00F0E278 /* Pawn.swift */; };
+		4903A0E61B3A523200F0E278 /* Knight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4903A0E51B3A523200F0E278 /* Knight.swift */; };
+		4903A0E81B3A52DC00F0E278 /* Bishop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4903A0E71B3A52DC00F0E278 /* Bishop.swift */; };
+		4903A0EA1B3A539A00F0E278 /* Rook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4903A0E91B3A539A00F0E278 /* Rook.swift */; };
+		4903A0EC1B3A543400F0E278 /* Queen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4903A0EB1B3A543400F0E278 /* Queen.swift */; };
+		4903A0EE1B3A549800F0E278 /* King.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4903A0ED1B3A549800F0E278 /* King.swift */; };
 		493DF2971B292286002AF41A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493DF2961B292286002AF41A /* AppDelegate.swift */; };
 		493DF2991B292286002AF41A /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 493DF2981B292286002AF41A /* GameScene.sks */; };
 		493DF29B1B292286002AF41A /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493DF29A1B292286002AF41A /* GameScene.swift */; };
@@ -41,6 +46,11 @@
 
 /* Begin PBXFileReference section */
 		4903A0E31B2B54AC00F0E278 /* Pawn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pawn.swift; sourceTree = "<group>"; };
+		4903A0E51B3A523200F0E278 /* Knight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Knight.swift; sourceTree = "<group>"; };
+		4903A0E71B3A52DC00F0E278 /* Bishop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bishop.swift; sourceTree = "<group>"; };
+		4903A0E91B3A539A00F0E278 /* Rook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rook.swift; sourceTree = "<group>"; };
+		4903A0EB1B3A543400F0E278 /* Queen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queen.swift; sourceTree = "<group>"; };
+		4903A0ED1B3A549800F0E278 /* King.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = King.swift; sourceTree = "<group>"; };
 		493DF2931B292286002AF41A /* Chess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chess.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		493DF2961B292286002AF41A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		493DF2981B292286002AF41A /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -86,6 +96,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4903A0EF1B3A555B00F0E278 /* Pieces */ = {
+			isa = PBXGroup;
+			children = (
+				4903A0E31B2B54AC00F0E278 /* Pawn.swift */,
+				4903A0E51B3A523200F0E278 /* Knight.swift */,
+				4903A0E71B3A52DC00F0E278 /* Bishop.swift */,
+				4903A0E91B3A539A00F0E278 /* Rook.swift */,
+				4903A0EB1B3A543400F0E278 /* Queen.swift */,
+				4903A0ED1B3A549800F0E278 /* King.swift */,
+			);
+			name = Pieces;
+			sourceTree = "<group>";
+		};
 		493DF28A1B292286002AF41A = {
 			isa = PBXGroup;
 			children = (
@@ -118,7 +141,7 @@
 				493DF2A11B292286002AF41A /* Assets.xcassets */,
 				DC24E6501B2E5A0F0050876B /* Board.swift */,
 				DC24E64E1B2A78A70050876B /* Piece.swift */,
-				4903A0E31B2B54AC00F0E278 /* Pawn.swift */,
+				4903A0EF1B3A555B00F0E278 /* Pieces */,
 				493DF2A31B292287002AF41A /* LaunchScreen.storyboard */,
 				493DF2A61B292287002AF41A /* Info.plist */,
 			);
@@ -276,8 +299,13 @@
 			files = (
 				493DF29B1B292286002AF41A /* GameScene.swift in Sources */,
 				4903A0E41B2B54AC00F0E278 /* Pawn.swift in Sources */,
+				4903A0EE1B3A549800F0E278 /* King.swift in Sources */,
 				493DF29D1B292286002AF41A /* GameViewController.swift in Sources */,
+				4903A0EC1B3A543400F0E278 /* Queen.swift in Sources */,
 				DC24E64F1B2A78A70050876B /* Piece.swift in Sources */,
+				4903A0EA1B3A539A00F0E278 /* Rook.swift in Sources */,
+				4903A0E61B3A523200F0E278 /* Knight.swift in Sources */,
+				4903A0E81B3A52DC00F0E278 /* Bishop.swift in Sources */,
 				DC24E6511B2E5A0F0050876B /* Board.swift in Sources */,
 				493DF2971B292286002AF41A /* AppDelegate.swift in Sources */,
 				DC24E64D1B2A73930050876B /* Tile.swift in Sources */,
