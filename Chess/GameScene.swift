@@ -11,12 +11,16 @@ import SpriteKit
 class GameScene: SKScene {
     override func didMoveToView(view: SKView) {
         /* Setup your scene here */
-        let myLabel = SKLabelNode(fontNamed:"Chalkduster")
-        myLabel.text = "Hello, World!";
-        myLabel.fontSize = 65;
-        myLabel.position = CGPoint(x:CGRectGetMidX(self.frame), y:CGRectGetMidY(self.frame));
         
-        self.addChild(myLabel)
+        view.scene!.anchorPoint = CGPoint(x: 0.5,y: 0.5)
+        
+        let box = SKShapeNode(rectOfSize: CGSize(width: 50, height: 50))
+        box.name = "bar"
+        box.fillColor = SKColor(red:1.00, green:0.00, blue:0.00, alpha:1)
+        box.position = CGPoint(x: 100, y: 100)
+        
+        self.addChild(box)
+        
     }
     
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
