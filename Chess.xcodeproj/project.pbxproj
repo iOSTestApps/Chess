@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36E783A3B8840D0B9050A54B /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84885C39D1A79ACF758C7037 /* CoreText.framework */; };
+		3DA0DA43B0FDE0D4F79C2709 /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D0BDAFE647A2D8CE90A5149 /* BuddyBuildSDK.framework */; };
 		4903A0E41B2B54AC00F0E278 /* Pawn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4903A0E31B2B54AC00F0E278 /* Pawn.swift */; };
 		4903A0E61B3A523200F0E278 /* Knight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4903A0E51B3A523200F0E278 /* Knight.swift */; };
 		4903A0E81B3A52DC00F0E278 /* Bishop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4903A0E71B3A52DC00F0E278 /* Bishop.swift */; };
@@ -22,9 +24,12 @@
 		493DF2A51B292287002AF41A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 493DF2A31B292287002AF41A /* LaunchScreen.storyboard */; };
 		493DF2B01B292287002AF41A /* ChessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493DF2AF1B292287002AF41A /* ChessTests.swift */; };
 		493DF2BB1B292287002AF41A /* ChessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493DF2BA1B292287002AF41A /* ChessUITests.swift */; };
+		7F08462387931D190B4EA4A7 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABB21A1C5836633A8BA60AAD /* CoreTelephony.framework */; };
+		A982D855BE77FECA87CF3F94 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C35E346CB7BD3A795005820 /* AssetsLibrary.framework */; };
 		DC24E64D1B2A73930050876B /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC24E64C1B2A73930050876B /* Tile.swift */; };
 		DC24E64F1B2A78A70050876B /* Piece.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC24E64E1B2A78A70050876B /* Piece.swift */; };
 		DC24E6511B2E5A0F0050876B /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC24E6501B2E5A0F0050876B /* Board.swift */; };
+		E772E8B6DB367F0B64C6F9F1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 811CE1BD4518FAA9425D28CE /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +50,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0089B3ACD90BD32098FB2D20 /* Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		2D0BDAFE647A2D8CE90A5149 /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
 		4903A0E31B2B54AC00F0E278 /* Pawn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pawn.swift; sourceTree = "<group>"; };
 		4903A0E51B3A523200F0E278 /* Knight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Knight.swift; sourceTree = "<group>"; };
 		4903A0E71B3A52DC00F0E278 /* Bishop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bishop.swift; sourceTree = "<group>"; };
@@ -66,6 +73,10 @@
 		493DF2B61B292287002AF41A /* ChessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		493DF2BA1B292287002AF41A /* ChessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChessUITests.swift; sourceTree = "<group>"; };
 		493DF2BC1B292287002AF41A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C35E346CB7BD3A795005820 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		811CE1BD4518FAA9425D28CE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		84885C39D1A79ACF758C7037 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		ABB21A1C5836633A8BA60AAD /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		DC24E64C1B2A73930050876B /* Tile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
 		DC24E64E1B2A78A70050876B /* Piece.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Piece.swift; sourceTree = "<group>"; };
 		DC24E6501B2E5A0F0050876B /* Board.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
@@ -76,6 +87,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DA0DA43B0FDE0D4F79C2709 /* BuddyBuildSDK.framework in Frameworks */,
+				A982D855BE77FECA87CF3F94 /* AssetsLibrary.framework in Frameworks */,
+				36E783A3B8840D0B9050A54B /* CoreText.framework in Frameworks */,
+				7F08462387931D190B4EA4A7 /* CoreTelephony.framework in Frameworks */,
+				E772E8B6DB367F0B64C6F9F1 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +112,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3BBBEBBC171F98C1F6EDA496 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D0BDAFE647A2D8CE90A5149 /* BuddyBuildSDK.framework */,
+				4C35E346CB7BD3A795005820 /* AssetsLibrary.framework */,
+				84885C39D1A79ACF758C7037 /* CoreText.framework */,
+				ABB21A1C5836633A8BA60AAD /* CoreTelephony.framework */,
+				811CE1BD4518FAA9425D28CE /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4903A0EF1B3A555B00F0E278 /* Pieces */ = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +144,8 @@
 				493DF2AE1B292287002AF41A /* ChessTests */,
 				493DF2B91B292287002AF41A /* ChessUITests */,
 				493DF2941B292286002AF41A /* Products */,
+				3BBBEBBC171F98C1F6EDA496 /* Frameworks */,
+				0089B3ACD90BD32098FB2D20 /* Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -452,10 +482,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Chess/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.duva.Chess;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -464,10 +499,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Chess/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.duva.Chess;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 			};
 			name = Release;
 		};
